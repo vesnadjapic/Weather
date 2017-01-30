@@ -26,7 +26,7 @@ function start() {
             getData(json)
           }
         })
-        json.open('GET','http://api.openweathermap.org/data/2.5/weather?q='+city+'&APPID=e2d614d6fd2688ae7bdf6a13bc94b441')
+        json.open('GET','https://api.openweathermap.org/data/2.5/weather?q='+city+'&APPID=e2d614d6fd2688ae7bdf6a13bc94b441')
         json.send();
 }
 
